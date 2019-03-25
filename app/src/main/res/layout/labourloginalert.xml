@@ -37,14 +37,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
-            android:text="e-mail :"
+            android:text="Phone :"
             android:textSize="25dp"
             android:textColor="#000"
             android:layout_marginLeft="10dp"
             />
 
         <EditText
-            android:id="@+id/labouremail"
+            android:id="@+id/labourphone"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:ems="10"
@@ -98,7 +98,8 @@
             android:id="@+id/labourregbtn"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="Register"
+
+            android:onClick="registr"
             android:layout_marginTop="305dp"
             android:background="@drawable/button"
             android:textSize="20dp"
